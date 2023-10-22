@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">수어조아</string>
+    <string name="recognize_voice">음성 인식</string>
+    <string name="recognize_camera">수어 인식</string>
+</resources>
