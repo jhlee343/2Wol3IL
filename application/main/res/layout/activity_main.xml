@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF7EA"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/iconLogo"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:padding = "30dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/icon" />
+
+    <Button
+        android:id="@+id/voice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_margin="15dp"
+        app:backgroundTint="#FFFFFF"
+        app:icon="@drawable/voice"
+        app:iconGravity="top"
+        app:iconSize="40dp"
+        app:iconTint="#000000"
+        android:text="@string/recognize_voice"
+        android:textColor="#000000"
+        android:background="@drawable/roundrect_button"
+        />
+
+    <Button
+        android:id="@+id/camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_margin="15dp"
+        app:backgroundTint="#F8F8F8"
+        app:icon="@drawable/camera"
+        app:iconGravity="top"
+        app:iconSize="40dp"
+        app:iconTint="#000000"
+        android:textColor="#000000"
+        android:text="@string/recognize_camera"
+        android:background="@drawable/roundrect_button"
+        />
+
+</LinearLayout>
